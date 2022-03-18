@@ -1,0 +1,32 @@
+.listitem-wrap img {
+    width: 100%;
+    border-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.listitem-wrap header {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.listitem-wrap header span {
+    font-size: .7rem;
+    background-color: #97ffff;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.listitem-wrap footer {
+    font-size:  .8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listitem-wrap footer p:first-child span {
+    color: rgba(0,0,0,.26);
+    font-weight: 600;
+}
